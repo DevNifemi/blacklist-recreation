@@ -8,8 +8,7 @@ footer{
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
-
-
+    padding: 20px;
 }
 footer h2{
     color: #696969 !important;
@@ -17,7 +16,8 @@ footer h2{
 }
 .quick-links{
     display: flex;
-    justify-content: space-between;
+    align-items: baseline;
+    align-content: flex-start;
 }
 footer h1{
     font-size: 1.25em;
@@ -25,15 +25,33 @@ footer h1{
     margin: 0 !important;
     padding: 0 !important;
 }
+.footer-details h2{
+    font-size: 17px !important;
+    margin-top: 10px;
+}
 ul{
-    margin-left: -20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 0;
+    margin-left: 50px;
 }
 li{
-    margin-top: 20px;
+    margin-top: 15px;
+    list-style: none;
+    color: grey;
 }
-.support-links{
-    display: flex;
-    /* align-items: center ; */
-    flex-direction: column;
-    margin-left: 40px;
+@media screen and (max-width: 700px) {
+    .footer_container{
+        display: block !important;
+    }
+    .quick-links{
+        display: block;
+        margin-top: 30px;
+    }
+    ul{
+        margin-left: 0;
+        margin-top: 20px;
+    }
 }

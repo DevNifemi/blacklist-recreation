@@ -9,6 +9,7 @@ import MobileNavbar from './components/navbar/MobileNavbar';
 import LaptopNavbar from './components/navbar/LaptopNavbar';
 import ChooseUsSection from './components/why-choose-us/ChooseUsSection';
 
+
 const styles = {
   backgroundColor: 'rgb(19,47,76)',
   backgroundImage: `url('https://blacklistng.com/assets/images/patterns/mitech-call-to-action-image-global.png')`,
@@ -34,7 +35,7 @@ function App() {
         <ChooseUsSection/>
 
         {/* sign in button  */}
-        <div style={styles}>
+        <div className='sign-in-bg' style={styles}>
             <div>
               <h1 className='sign-in-header'>Getting rid of chronic debtors one search at a time</h1>
             </div>
@@ -46,6 +47,7 @@ function App() {
    
         <GetConsultation />
         <Footer/>
+        
     </div>
   );
 }

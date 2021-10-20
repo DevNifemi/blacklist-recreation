@@ -26,19 +26,20 @@
 .info-abt-compaines p{
     margin-top: -20px !important;
     margin-bottom: 60px;
+    text-align: center;
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
    .companies{
        display: grid;
-       grid-template-columns: auto auto auto;
+       grid-template-columns: auto auto;
+       margin-top: 50px;
+       margin-bottom: 20px;
    }
-   .companies:last-child{
-       display: none !important;
-   }
+   
    .img-container{
-    padding: 30px 10px;
-    margin-top: 10px;
+    padding: 10px;
+    margin: 0;
     }
 }

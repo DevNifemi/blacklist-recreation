@@ -1,4 +1,4 @@
-import { Button } from '@mui/material';
+import { Button} from '@mui/material';   
 import './navbar.styles.css';
 
 const LaptopNavbar = () => {
@@ -8,6 +8,7 @@ const LaptopNavbar = () => {
          <div className="logo">
             <img src='https://blacklistng.com/img/logo.png' alt="app logo" />
         </div>
+
 
          <div className="links">
              <a href="/">Home</a>
@@ -20,8 +21,10 @@ const LaptopNavbar = () => {
             <Button className='btn' variant="contained">Login</Button>
             <Button className='btn' variant="outlined">Sign Up</Button>        
          </div>
+         
         </nav>
     )
 }
+
 
 export default LaptopNavbar

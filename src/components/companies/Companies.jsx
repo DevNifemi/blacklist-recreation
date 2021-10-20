@@ -14,7 +14,7 @@ const Companies = () => {
                 <div className="img-container">
                      <img src='https://mui.com/static/branding/companies/netflix-light.svg' alt='sponsors'/>
                 </div>
-                <div className="img-container">
+                <div className="img-container last-child">
                     <img src='https://mui.com/static/branding/companies/shutterstock-light.svg' alt='sponsors'/>
                 </div>
             </div>

@@ -7,10 +7,9 @@ const FooterQuickLinks = ({title, links}) => {
     return(
 
     <div className="support-links">
-        <h1>{title}</h1>
-
         <ul>
-            {links.map(link => <li>{link}</li>) }
+            <h1>{title}</h1>
+            {links.map((link, idx) => <li key={idx}>{link}</li>) }
         </ul>
     </div>
     )
@@ -36,7 +35,7 @@ const Footer = () => {
                 <div className="quick-links">
                     <FooterQuickLinks
                         title='Support Links'
-                        links={['Help Desk', 'Contact Us']}
+                        links={['Help Desk', 'Contact Us', 'Consult']}
                     />
 
                     <FooterQuickLinks
@@ -51,6 +50,8 @@ const Footer = () => {
 
                 </div>
             </Container>
+
+            <p className='ml-4'>© 2021 Blacklist. All Rights Reserved.</p>
         </footer>
     )
 }

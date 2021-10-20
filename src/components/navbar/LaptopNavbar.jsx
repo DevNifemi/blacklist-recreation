@@ -1,11 +1,9 @@
 import { Button } from '@mui/material';
-import React from 'react'
 import './navbar.styles.css';
 
-
-const Navbar = () => {
+const LaptopNavbar = () => {
     return (
-        <nav>
+        <nav className='laptop-nav'>
 
          <div className="logo">
             <img src='https://blacklistng.com/img/logo.png' alt="app logo" />
@@ -26,4 +24,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default LaptopNavbar

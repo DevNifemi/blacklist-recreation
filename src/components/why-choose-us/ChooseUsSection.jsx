@@ -22,7 +22,7 @@ const CardDetails = ({title, icon, content}) => {
 
 const ChooseUsSection = () => {
     return (
-        <Container>
+        <Container className='choose_us_section'>
             <h2>WHY BLACKLIST?</h2>
             <h1>Simple and very easy <span>profiling</span> </h1>
 

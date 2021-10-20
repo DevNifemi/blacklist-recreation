@@ -5,16 +5,17 @@ const Companies = () => {
         <div className='container'>
             <div className="companies">
                 <div className="img-container">
-                    <img src='https://mui.com/static/branding/companies/spotify-light.svg'/>
+                    <img src='https://mui.com/static/branding/companies/spotify-light.svg' alt='sponsors'/>
+                </div>
+                
+                <div className="img-container">
+                    <img src='https://mui.com/static/branding/companies/amazon-light.svg' alt='sponsors'/>
                 </div>
                 <div className="img-container">
-                    <img src='https://mui.com/static/branding/companies/amazon-light.svg'/>
+                     <img src='https://mui.com/static/branding/companies/netflix-light.svg' alt='sponsors'/>
                 </div>
                 <div className="img-container">
-                     <img src='https://mui.com/static/branding/companies/netflix-light.svg'/>
-                </div>
-                <div className="img-container">
-                    <img src='https://mui.com/static/branding/companies/shutterstock-light.svg'/>
+                    <img src='https://mui.com/static/branding/companies/shutterstock-light.svg' alt='sponsors'/>
                 </div>
             </div>
 

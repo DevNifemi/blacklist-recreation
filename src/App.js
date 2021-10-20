@@ -2,8 +2,11 @@ import { Button } from '@mui/material';
 import './App.css';
 import Banner from './components/banner/Banner';
 import Companies from './components/companies/Companies';
+import Footer from './components/footer/Footer';
+import GetConsultation from './components/get-consulation/GetConsultation';
 import HowItWorks from './components/how-it-works/HowItWorks';
-import Navbar from './components/navbar/Navbar';
+import MobileNavbar from './components/navbar/MobileNavbar';
+import LaptopNavbar from './components/navbar/LaptopNavbar';
 import ChooseUsSection from './components/why-choose-us/ChooseUsSection';
 
 const styles = {
@@ -11,8 +14,8 @@ const styles = {
   backgroundImage: `url('https://blacklistng.com/assets/images/patterns/mitech-call-to-action-image-global.png')`,
   backgroundPosition: 'top 35% right -68px',
   backgroundRepeat: 'no-repeat',
-  marginTop: '100px',
-  padding: 55,
+  marginTop: '150px',
+  padding: 60,
   display: 'flex',
   // width: '100%',
   alignItems: 'center',
@@ -23,7 +26,8 @@ const styles = {
 function App() {
   return (
     <div className="App">
-        <Navbar />
+        <MobileNavbar/>
+        <LaptopNavbar />
         <Banner/>
         <Companies/>
         <HowItWorks/>
@@ -39,6 +43,9 @@ function App() {
             <Button className='homepage-btn' variant='contained'><i className='bx bx-exit'></i> Sign In</Button>
             </div>
         </div>
+   
+        <GetConsultation />
+        <Footer/>
     </div>
   );
 }

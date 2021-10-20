@@ -4,10 +4,10 @@ import './banner.styles.css';
 
 const Banner = () => {
     return (
-        <div>
+        <div className='banner_container'>
             <Grid container spacing={2}>
 
-                <Grid item sm={12} xs={6} md={6}>
+                <Grid item sm={12} xs={12} md={6}>
                     <Container>
                         <div className="banner-info">
                             <h1>ALTERNATIVE <span>DATABASE</span>  FOR CHRONIC DEBTORS & FRAUDULENT PEOPLE</h1>
@@ -17,7 +17,7 @@ const Banner = () => {
                     </Container>
                 </Grid>
 
-                <Grid className='grid_two' item sm={6} xs={6} md={6}>
+                <Grid className='banner_grid_two' item sm={6} xs={6} md={6}>
                     <img src="https://malhub.com.ng/img/about-img.png" alt="banner" />
                 </Grid>
 

@@ -1,6 +1,11 @@
-nav{
+.laptop-nav{
     padding-left: 20px;
     padding-right: 20px !important;
+    padding-top:5px;
+    padding-bottom: 5px;
+    top: 0;
+    z-index: 110;
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-between;

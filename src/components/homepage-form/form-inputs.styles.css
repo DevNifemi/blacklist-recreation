@@ -1,0 +1,17 @@
+form{
+    width: 98%;
+    padding: 10px;
+    margin-top: 50px;
+}
+.user-details{
+    display: flex;
+    justify-content: space-between !important;
+    margin-bottom: 20px;
+}
+.input-one{
+    margin-right: 20px !important;
+}
+.textarea{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

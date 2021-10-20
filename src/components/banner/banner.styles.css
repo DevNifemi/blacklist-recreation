@@ -1,7 +1,9 @@
+.banner_container{
+    margin-top: 110px;
+}
 .banner-info{
     margin-top: 120px;
     margin-left: 20px;
-
 }
 .banner-info h1{
     font-size: 2.4rem;
@@ -12,15 +14,34 @@
     margin-bottom: 20px;
     max-width: 500px;
 }
-.grid_two{
+.banner_grid_two{
     width: 93%;
     margin-top: 50px;
 }
-.grid_two img{
+.banner_grid_two img{
     width: 100%;
     height: 100%;
+    object-fit: contain;
+    object-position: center;
 }
 span{
-    color: #3470b1;
- 
- }
+    color: #3470b1; 
+}
+
+
+
+ @media screen and (max-width: 900px){
+     .banner-info{
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+     }
+    .banner_grid_two{
+        display: none !important;
+    }
+    .grid_one{
+
+    }
+}

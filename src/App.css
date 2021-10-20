@@ -28,3 +28,15 @@ body{
     background-color: white !important;
     color: #1e83cf !important;
 }
+.mobile-nav{
+    /* display: none; */
+}
+
+@media screen and (max-width: 604px){
+    .laptop-nav{
+        display: none !important;
+    }
+    .mobile-nav{
+        display: flex !important;
+    }
+}

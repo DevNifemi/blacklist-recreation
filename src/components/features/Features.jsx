@@ -6,7 +6,7 @@ const Features = () => {
     return (
         <div className='features-container'>
             <Container>
-             <Grid container spacing={2}>
+             <Grid container spacing={1}>
 
                 <Grid item sm={12} xs={12} md={8}>
                     <div className='sub-features-container'>

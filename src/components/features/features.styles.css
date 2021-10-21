@@ -1,6 +1,4 @@
 .features-container{
-
-    /* margin-top: 70px; */
     margin-bottom: 50px;
     padding: 70px 30px;
     margin-top: 100px;
@@ -19,8 +17,11 @@
 
 @media screen and (max-width: 650px){
     .sub-features-container{
-        padding: 10px !important;
+        padding: 0 !important;
         margin: 0 !important;
     }
-    
+    .features-container{
+        /* margin: 0; */
+        padding: 0 !important;
+    }
 }

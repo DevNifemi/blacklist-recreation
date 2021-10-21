@@ -1,4 +1,7 @@
 .get-consultation-container{
+    background: linear-gradient(
+180deg, #F3F6F9 0%, #FFFFFF 100%);
+    padding-bottom: 60px;
     margin-top: 60px;
 }
 .consultation-info{

@@ -5,6 +5,7 @@ import './banner.styles.css';
 const Banner = () => {
     return (
         <div className='banner_container'>
+            
             <Grid container spacing={2}>
 
                 <Grid item sm={12} xs={12} md={6}>

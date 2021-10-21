@@ -8,6 +8,7 @@ import HowItWorks from './components/how-it-works/HowItWorks';
 import MobileNavbar from './components/navbar/MobileNavbar';
 import LaptopNavbar from './components/navbar/LaptopNavbar';
 import ChooseUsSection from './components/why-choose-us/ChooseUsSection';
+import Features from './components/features/Features';
 
 
 const styles = {
@@ -44,7 +45,8 @@ function App() {
             <Button className='homepage-btn' variant='contained'><i className='bx bx-exit'></i> Sign In</Button>
             </div>
         </div>
-   
+
+        <Features />
         <GetConsultation />
         <Footer/>
         

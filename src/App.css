@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -8,7 +11,10 @@ body{
     box-sizing: border-box;
 }
 
+button:hover{
+    color: #fff !important;
 
+}
 .sign-in-header{
     color: #A5D8FF;
     font-size: 3em;

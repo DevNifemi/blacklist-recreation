@@ -31,18 +31,16 @@ const ChooseUsSection = () => {
 
             <Grid item xs={12} sm={6} md={3}>
                 <CardDetails
-                    title='Beautifully Designed'
+                    title='Alternative Database'
                     content='
-                    You can start your projects with Googles Material Design or build your own designs using the sophisticated theming features.'
-                    icon='bx bxs-lock-open-alt'
+                    The blacklist is an alternative database for chronic debtors and fraudulent people as reported by verified registered Nigerian businesses.'                    icon='bx bxs-lock-open-alt'
                 />
             </Grid>
 
             <Grid item xs={12} sm={6} md={3}>
                 <CardDetails
-                    title='Easily customized'
-                    content='Enjoy the power of our components without sacrificing the styles you want. Tweak how your components render down to the very last class.'
-                    icon='bx bx-run'
+                    title='No Limitations'
+                    content='Any verified registered business in Nigeria is free to upload a list of their debtors or business associates, employee or customers that have defrauded them.'                    icon='bx bx-run'
                 />
             </Grid>
 

@@ -12,9 +12,9 @@ const LaptopNavbar = () => {
 
          <div className="links">
              <a href="/">Home</a>
-             <a href="/">Pricing</a>
+             <a href="">Pricing</a>
              <a href="https://blacklistng.com/docs/#introduction">Developers</a>
-             <a href="/">Support</a>
+             <a href="#contact-us">Support</a>
          </div>
 
          <div className="login-btn">
